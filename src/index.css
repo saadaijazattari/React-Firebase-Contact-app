@@ -1,0 +1,8 @@
+@import "tailwindcss";
+@font-face {
+  font-family: poppins;
+  src: url("src/fonts/poppins.medium.ttf");
+}
+body {
+  font-family: poppins, sans-serif;
+}

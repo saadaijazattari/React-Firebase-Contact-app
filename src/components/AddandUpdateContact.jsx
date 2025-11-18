@@ -58,15 +58,15 @@ const AddandUpdateContact = ({IsOpen,onClose,isUpdate,cont,contact}) => {
         <Form className='flex flex-col gap-3'>
           <div className='flex flex-col'>
             <label htmlFor="name" className="block text-white mb-1">Name</label>
-            <Field name="name" className=" w-full border p-2 rounded outline-none border-gray-600"/>
-            <div className='text-white text-sm'>
+            <Field name="name" className=" w-full border p-2 rounded outline-none border-gray-600 mb-2"/>
+            <div className='text-red-500 text-sm'>
               <ErrorMessage name='name'/>
             </div>
           </div>
           <div className='flex flex-col'>
             <label htmlFor="email" className="block text-white mb-1">Email</label>
-            <Field name="email" className=" w-full border p-2 rounded outline-none border-gray-600"/>
-            <div className='text-white text-sm'>
+            <Field name="email" className=" w-full border p-2 rounded outline-none border-gray-600 mb-2"/>
+            <div className='text-red-500 text-sm'>
               <ErrorMessage name='email'/>
             </div>
           </div>
